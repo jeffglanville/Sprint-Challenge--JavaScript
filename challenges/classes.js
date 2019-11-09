@@ -6,6 +6,13 @@
 //     this.height = height;
 // }
 
+// CuboidMaker.prototype.volume = function(){
+//     return (length * width * height);
+// }
+
+// CuboidMaker.prototype.surface = function(){
+//     return (length * width + length * height + width * height) * 2;
+// }
 class CuboidMaker {
     constructor(length, width, height){
         this.length;
