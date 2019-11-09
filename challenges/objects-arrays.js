@@ -1,8 +1,8 @@
 // ==== Objects ====
 
-/* 
-  Given the following information about dinosaurs, create 3 objects: 
-  Use this pattern to create your objects: 
+/*
+  Given the following information about dinosaurs, create 3 objects:
+  Use this pattern to create your objects:
   object name, diet, weight, length, period
 */
 
@@ -56,7 +56,7 @@ console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
-The resulting contact information strings should have a space between the first name and the email, like this: 
+The resulting contact information strings should have a space between the first name and the email, like this:
 "Josh josh@example.com"
 
 Log the result of your new array. */
@@ -102,7 +102,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 const lowCaseAnimalNames = [];
 console.log(lowCaseAnimalNames);
 
-/* Request 3: .filter() 
+/* Request 3: .filter()
 
 The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
 
@@ -110,7 +110,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 const lowPopulationAnimals = [];
 console.log(lowPopulationAnimals);
 
-/* Request 4: .reduce() 
+/* Request 4: .reduce()
 
 The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
 
