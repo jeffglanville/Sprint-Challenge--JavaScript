@@ -24,15 +24,15 @@ function consume(a, b, cb){
   }
 
   greeting(first_name, last_name){
-    return `Hello ${first_name} ${last_name}, nice to meet you!`
+    return `Hello ${first_name} ${last_name}, nice to meet you!`;
   }
 
 }
 
 // Step 3: Check your work by un-commenting the following calls to consume(): 
-console.log(consume(2, 2, add)); 
-console.log(consume(10, 16, multiply)); 
-console.log(consume("Mary", "Poppins", greeting)); 
+// console.log(consume(2, 2, add)); 
+// console.log(consume(10, 16, multiply)); 
+// console.log(consume("Mary", "Poppins", greeting)); 
 
 
 // ==== Closures ==== 
