@@ -14,25 +14,18 @@
 //     return (length * width + length * height + width * height) * 2;
 // }
 class CuboidMaker {
-    constructor(length, width, height){
-        this.length = length;
-        this.width = width;
-        this.height = height;
+    constructor(obj){
+        this.length = obj.length;
+        this.width = obj.width;
+        this.height = obj.height;
+    }
+    volume (){
+        return this.length * this.width * this.height;
     }
 
-volume extends CuboidMaker{
-    constructor(length, width, height){
-        super(length, width, height);
-        return (length * width * height);
+    surface (){
+        return (this.length * this.width + this.length * this.height + this.width * this.height) * 2
     }
-}
-
-surface extends CuboidMaker{
-    constructor(length, width, height){
-        super(length, width, height);
-        return (length * width + length * height + width * height)* 2;
-    }
-  }
 }
 
 
