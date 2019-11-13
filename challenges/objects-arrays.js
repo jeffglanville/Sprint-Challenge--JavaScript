@@ -132,8 +132,16 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 
 */
 
-const lowCaseAnimalNames = [];
-console.log(lowCaseAnimalNames);
+function animals(zooAnimals){
+  const displayNames = [];
+  zooAnimals.forEach(animal => {
+    let currentAnimal = zooAnimals.scientific_name && zooAnimals.animal_name;
+    displayNames.push(currentAnimal)
+    
+  });
+  return displayNames;
+}
+console.log(zooAnimals);
 
 /* Request 3: .filter()
 
