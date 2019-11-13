@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    The biggest difference between .forEach and .map is with .forEach will allow the original array to be mutated where .map just returns a new array.
 
 2. What is the difference between a function and a method?
+   The difference between a function and a method is a function is a procedure in which to perform a task etc. A method is the property of the function object.
 
 3. What is closure?
+   A closure is a combination of functions coming together to reference a single object of the original function object.
 
 4. Describe the four rules of the 'this' keyword.
+   1. refers to the global object of the function
+   2. sets the object the method is called one
+   3. in a constructor it is used to bind the new object being constructed
+   4. maintains consistency throughout
 
 5. Why do we need super() in an extended class?
+   The super() is used in the extended classes to define the parameters of the new class we are creating in order for it to be implemented in the new class.
 
 ## Project Set up
 
@@ -65,11 +73,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
